@@ -5,7 +5,7 @@
     (no_connects 403)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 25)
+    (drawings 27)
     (tracks 0)
     (zones 0)
     (modules 156)
@@ -6186,6 +6186,8 @@
     )
   )
 
+  (gr_line (start 191 107) (end 191 108) (angle 90) (layer F.Fab) (width 0.2))
+  (gr_line (start 191 107) (end 191 77) (angle 90) (layer F.Fab) (width 0.2))
   (gr_line (start 210 108) (end 210 145) (angle 90) (layer F.Fab) (width 0.2))
   (gr_line (start 170 108) (end 240 108) (angle 90) (layer F.Fab) (width 0.2))
   (gr_line (start 80 150) (end 80 190) (angle 90) (layer F.Fab) (width 0.2))

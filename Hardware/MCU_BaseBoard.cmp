@@ -1,31 +1,31 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 5/22/2015 2:59:26 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 5/30/2015 7:45:35 PM
 
 BeginCmp
 TimeStamp = /549BD867/549CB0EA;
 Reference = AFF1;
 ValeurCmp = LTS-6960HR;
-IdModule  = Displays_7-Segment:LTS-69xx;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
 EndCmp
 
 BeginCmp
 TimeStamp = /549BD867/549CB133;
 Reference = AFF2;
 ValeurCmp = LTS-6960HR;
-IdModule  = Displays_7-Segment:LTS-69xx;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
 EndCmp
 
 BeginCmp
 TimeStamp = /549BD867/549CB139;
 Reference = AFF3;
 ValeurCmp = LTS-6960HR;
-IdModule  = Displays_7-Segment:LTS-69xx;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
 EndCmp
 
 BeginCmp
 TimeStamp = /549BD867/549CB13F;
 Reference = AFF4;
 ValeurCmp = LTS-6960HR;
-IdModule  = Displays_7-Segment:LTS-69xx;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
 EndCmp
 
 BeginCmp
@@ -64,17 +64,10 @@ IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AF94C;
-Reference = C6;
-ValeurCmp = 0.1uf;
-IdModule  = Capacitors_SMD:C_1206_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /555AF8BA;
 Reference = D1;
 ValeurCmp = BRIDGE;
-IdModule  = sw:W005M_XL;
+IdModule  = sw:bridge_smd_xl;
 EndCmp
 
 BeginCmp
@@ -218,13 +211,6 @@ IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AF95C;
-Reference = J1;
-ValeurCmp = USB_2;
-IdModule  = Connect:USB_B;
-EndCmp
-
-BeginCmp
 TimeStamp = /549BD867/549BDECF;
 Reference = JP1;
 ValeurCmp = RELAY;
@@ -326,21 +312,21 @@ BeginCmp
 TimeStamp = /549BE66C/555B08A2;
 Reference = LCD1;
 ValeurCmp = LCD_2X16_SIL;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x16;
+IdModule  = Display:WC1602A;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B81A2;
+TimeStamp = /55636577;
 Reference = P1;
-ValeurCmp = CONN_01X04;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B569C;
+TimeStamp = /55641FE6;
 Reference = P2;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+ValeurCmp = CONN_01X20;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x20;
 EndCmp
 
 BeginCmp
@@ -421,59 +407,31 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B5736;
+TimeStamp = /55641F01;
 Reference = P14;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+ValeurCmp = CONN_01X20;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x20;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B0113;
+TimeStamp = /549BE66C/5567F620;
 Reference = P15;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+ValeurCmp = CONN_01X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B061A;
+TimeStamp = /549BE66C/5569BDE8;
 Reference = P16;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AFEF7;
+TimeStamp = /549BE66C/5569BF4F;
 Reference = P17;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
-EndCmp
-
-BeginCmp
-TimeStamp = /555B0580;
-Reference = P18;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
-EndCmp
-
-BeginCmp
-TimeStamp = /555B5886;
-Reference = P19;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
-EndCmp
-
-BeginCmp
-TimeStamp = /555B583C;
-Reference = P20;
-ValeurCmp = CONN_01X10;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
-EndCmp
-
-BeginCmp
-TimeStamp = /549BE66C/555B4642;
-Reference = P21;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
@@ -481,20 +439,6 @@ TimeStamp = /549BE66C/555BB6FD;
 Reference = P22;
 ValeurCmp = CONN_01X03;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /549BE66C/555B46A3;
-Reference = P23;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
-EndCmp
-
-BeginCmp
-TimeStamp = /549BE66C/555B4763;
-Reference = P24;
-ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -530,6 +474,27 @@ TimeStamp = /555BE8D0;
 Reference = P29;
 ValeurCmp = CONN_01X04;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55634002;
+Reference = P30;
+ValeurCmp = CONN_01X07;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
+EndCmp
+
+BeginCmp
+TimeStamp = /549BE66C/55636E71;
+Reference = P31;
+ValeurCmp = CONN_01X08;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /549BE66C/55636DEC;
+Reference = P32;
+ValeurCmp = CONN_01X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
@@ -648,20 +613,6 @@ BeginCmp
 TimeStamp = /555AF857;
 Reference = R10;
 ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /555B6D94;
-Reference = R11;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /555B6E4E;
-Reference = R12;
-ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
@@ -890,13 +841,6 @@ IdModule  = Buzzers_Beepers:Buzzer_12x9.5RM7.6;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B6C67;
-Reference = SW1;
-ValeurCmp = INT1;
-IdModule  = sw:SW_PUSH_SMALL_2pin_3D_xl;
-EndCmp
-
-BeginCmp
 TimeStamp = /549BDEFC/549BE161;
 Reference = SW2;
 ValeurCmp = C;
@@ -1030,13 +974,6 @@ IdModule  = sw:SPSPT_XL;
 EndCmp
 
 BeginCmp
-TimeStamp = /555B6CAC;
-Reference = SW21;
-ValeurCmp = INT1;
-IdModule  = sw:SW_PUSH_SMALL_2pin_3D_xl;
-EndCmp
-
-BeginCmp
 TimeStamp = /555EA929;
 Reference = U1;
 ValeurCmp = 7805;
@@ -1065,10 +1002,10 @@ IdModule  = sw:BATT_rtc_XL;
 EndCmp
 
 BeginCmp
-TimeStamp = /549BE66C/555B086A;
-Reference = U6;
-ValeurCmp = CONN_15;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x15;
+TimeStamp = /556419E7;
+Reference = U5;
+ValeurCmp = 40PIN_Breakout;
+IdModule  = sw:40pin_breakout;
 EndCmp
 
 BeginCmp
@@ -1079,17 +1016,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x20;
 EndCmp
 
 BeginCmp
-TimeStamp = /555AF96E;
-Reference = U8;
-ValeurCmp = CP2102;
-IdModule  = sw:cp2102_xl2;
-EndCmp
-
-BeginCmp
-TimeStamp = /549BDEFC/549BE1D9;
+TimeStamp = /549BDEFC/55655673;
 Reference = X1;
-ValeurCmp = CRYSTAL;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = CRYSTAL_SMD;
+IdModule  = sw:RTC_Crystal;
 EndCmp
 
 EndListe

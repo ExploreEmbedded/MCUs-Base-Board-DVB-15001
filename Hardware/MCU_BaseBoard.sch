@@ -33,13 +33,13 @@ LIBS:Ultra_DB_X51_v1-cache
 LIBS:16X2-cache
 LIBS:blutooth-cache
 LIBS:MCU_BaseBoard-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Explore MCU Base Board"
-Date "Saturday, May 23, 2015"
+Date "28 jun 2015"
 Rev "v1.0"
 Comp "ExploreEmbedded.com"
 Comment1 ""
